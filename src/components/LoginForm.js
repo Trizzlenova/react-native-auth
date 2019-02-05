@@ -46,7 +46,7 @@ class LoginForm extends Component {
         Log in
       </Button>
     );
-  };
+  }
 
   render() {
     return (
@@ -88,6 +88,6 @@ const styles = {
     alignSelf: 'center',
     color: 'red',
   }
-}
+};
 
 export default LoginForm;
